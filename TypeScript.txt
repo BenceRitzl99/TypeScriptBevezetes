@@ -1,0 +1,14 @@
+npm i -g typescript
+
+tsc src/app.ts --> lefordítja JavaScriptre
+
+Típuskényszerítés:
+C#-ban:
+int a = 35;
+byte b = (byte) a;
+
+tsc src/app.ts --watch  --> automatikus fordítás
+
+tsc --init --> létrehoz egy tsconfig.json fájlt, magyarázatokkal hogy mi mire jó
+
+_OOP_ --> Objekt Orientált Programozás
